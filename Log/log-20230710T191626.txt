@@ -1,0 +1,28 @@
+19:16:31 INFO  tests.TestBase - Start test -->searchPositiveTest
+19:16:31 INFO  manager.MyListener - Start searching element by locator --> By.id: city
+19:16:31 INFO  manager.MyListener - Element with locator --> By.id: cityis found
+19:16:31 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: div.pac-item
+19:16:32 INFO  manager.MyListener - Element with locator --> By.cssSelector: div.pac-itemis found
+19:16:32 INFO  manager.MyListener - Start searching element by locator --> By.id: dates
+19:16:32 INFO  manager.MyListener - Element with locator --> By.id: datesis found
+19:16:32 INFO  manager.MyListener - Start searching element by locator --> By.id: dates
+19:16:32 INFO  manager.MyListener - Element with locator --> By.id: datesis found
+19:16:32 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+19:16:32 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit']is found
+19:16:33 INFO  manager.MyListener - Something went wrong!
+19:16:33 INFO  manager.MyListener - element click intercepted: Element <button _ngcontent-oww-c106="" type="submit">...</button> is not clickable at point (135, 501). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.4QMDlB}, goog:chromeOptions: {debuggerAddress: localhost:43441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d176807f4d53a9a3e0486f2db6283a9
+19:16:33 INFO  manager.MyListener - element click intercepted: Element <button _ngcontent-oww-c106="" type="submit">...</button> is not clickable at point (135, 501). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.4QMDlB}, goog:chromeOptions: {debuggerAddress: localhost:43441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d176807f4d53a9a3e0486f2db6283a9
+19:16:33 INFO  manager.MyListener - This is link to screenshot with error: src/test/screenshots993.png
+19:16:33 INFO  tests.TestBase - ========

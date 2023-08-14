@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-18T20:55:48" hostname="aleksandra-Lenovo" time="2.392">
+<testsuite name="tests.LoginTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-10T21:28:38" hostname="aleksandra-Lenovo" time="3.579">
   <properties/>
-  <testcase name="loginPositive" classname="tests.LoginTests" time="2.392"/>
+  <testcase name="loginPositiveUserDTO[0](models.User@4a951911)" classname="tests.LoginTests" time="0.504"/>
+  <testcase name="loginPositiveUserDTO[1](models.User@5f5b5ca4)" classname="tests.LoginTests" time="0.394"/>
+  <testcase name="loginPositiveUserDTO[2](models.User@1813f3e9)" classname="tests.LoginTests" time="0.398"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

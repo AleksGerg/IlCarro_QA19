@@ -1,55 +1,97 @@
 package manager;
 
+import models.User;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperUser extends HelperBase{
-
-
     public HelperUser(WebDriver wd) {
         super(wd);
     }
 
-    public void openLoginRegistrationForm(){
-        click(By.xpath("//a[text()='Log in']"));
+    public void openLoginForm(){
+        click(By.xpath("//a[text()=' Log in ']"));
     }
 
-    public void click(By locator) {
-        wd.findElement(locator).click();
+    public void openRegistrationForm(){
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+    public void fillLoginForm(String email, String password){
+        type(By.id("email"), email);
+        type(By.id("password"), password);
+    }
+    public void fillLoginForm(User user){
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
+    public void fillRegistrationForm(User user){
+        type(By.id("name"), user.getName());
+        type(By.id("lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+        checkboxClick();
     }
 
-    public void type(By locator, String text) {
-        WebElement element = wd.findElement(locator);
-        element.click();
-        element.clear();
-        element.sendKeys(text);
+    public void checkboxClick(){
+        System.out.println("checkbox is Clicked");
+        // variant 1
+        //        click(By.cssSelector("label[for='terms-of-use']"));
+        // variant 2
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
+        // variant 3
+//        Rectangle rect = wd.findElement(By.cssSelector(".checkbox-container")).getRect();
+//        int x = rect.getX() + 5;
+//        int y = rect.getY() + rect.getHeight() / 4;
+//        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x, y).click().perform();
+
     }
 
-    public void pause(int millis) {
-        try {
-            Thread.sleep(millis);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-    public boolean isElementPresent(By locator) {
+    // method signature : type + name + parameters types
 
-        return wd.findElements(locator).size() > 0;
+    //    public void submitForm(){
+//        wd.findElement(By.cssSelector("[type='submit']")).submit();
+//    }
+    public void submitForm(){
+        wd.findElement(By.cssSelector("[type='submit']")).click();
     }
 
-    public void fillLoginRegistrationForm(String email, String password) {
-        type(By.xpath("//input[@id='email']"), email); ///password
-        type(By.xpath("//input[@id='password']"), password);
+    public boolean isLoggedSuccess(){
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+        return wd.findElement(By.cssSelector(".dialog-container")).getText().contains("success");
     }
 
-    public void submitLogin(){
+    public boolean isRegistered(){
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+        return wd.findElement(By.cssSelector(".dialog-container")).getText().contains("Registered");
 
-        click(By.xpath("//button[text()='Y’alla!']"));
+    }
+
+    public void clickOkButton(){
+        click(By.xpath("//button[.='Ok']"));
     }
 
     public boolean isLogged(){
+        return isElementPresent(By.xpath("//a[.=' Logout ']"));
+    }
 
-        return isElementPresent(By.xpath("//h2[text()='Logged in success']"));
+    public void logout(){
+        click(By.xpath("//a[.=' Logout ']"));
+    }
+
+    public void login(User user){
+        openLoginForm();
+        fillLoginForm(user);
+        submitForm();
+        clickOkButton();
+
     }
 }

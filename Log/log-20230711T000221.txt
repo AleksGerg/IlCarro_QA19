@@ -1,0 +1,10 @@
+00:02:24 INFO  tests.TestBase - Start test ---> searchPositiveTest
+00:02:24 INFO  manager.MyListener - Start searching element by locator --> By.id: city
+00:02:24 INFO  manager.MyListener - Element with locator --> By.id: city is found
+00:02:28 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: div.pac-item
+00:02:28 INFO  manager.MyListener - Element with locator --> By.cssSelector: div.pac-item is found
+00:02:31 INFO  manager.MyListener - Start searching element by locator --> By.id: dates
+00:02:31 INFO  manager.MyListener - Element with locator --> By.id: dates is found
+00:02:34 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+00:02:34 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit'] is found
+00:02:34 INFO  tests.TestBase - =================================

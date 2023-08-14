@@ -1,0 +1,12 @@
+18:18:28 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+18:18:33 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout ']is found
+18:18:33 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+18:18:34 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in ']is found
+18:18:34 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+18:18:34 INFO  manager.MyListener - Element with locator --> By.id: emailis found
+18:18:34 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+18:18:34 INFO  manager.MyListener - Element with locator --> By.id: passwordis found
+18:18:34 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+18:18:34 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit']is found
+18:18:34 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+18:18:35 INFO  manager.MyListener - Element with locator --> By.xpath: //button[.='Ok']is found

@@ -1,0 +1,46 @@
+18:19:39 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+18:19:44 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout ']is found
+18:19:44 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+18:19:45 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in ']is found
+18:19:45 INFO  manager.MyListener - Start searching element by locator --> By.id: emal
+18:19:50 INFO  manager.MyListener - Something went wrong!
+18:19:50 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"#emal"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.1rFWl8}, goog:chromeOptions: {debuggerAddress: localhost:36689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee8c5e219a18d81143588cc930649f3e
+*** Element info: {Using=id, value=emal}
+18:19:50 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"#emal"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.1rFWl8}, goog:chromeOptions: {debuggerAddress: localhost:36689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee8c5e219a18d81143588cc930649f3e
+*** Element info: {Using=id, value=emal}
+18:19:50 INFO  manager.MyListener - This is link to screenshot with error: src/test/screenshots1190.png
+18:19:50 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+18:19:55 INFO  manager.MyListener - Something went wrong!
+18:19:55 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.1rFWl8}, goog:chromeOptions: {debuggerAddress: localhost:36689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee8c5e219a18d81143588cc930649f3e
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+18:19:55 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.1rFWl8}, goog:chromeOptions: {debuggerAddress: localhost:36689}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee8c5e219a18d81143588cc930649f3e
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+18:19:56 INFO  manager.MyListener - This is link to screenshot with error: src/test/screenshots1195.png

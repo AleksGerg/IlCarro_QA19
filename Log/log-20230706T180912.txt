@@ -1,0 +1,125 @@
+18:09:22 INFO  tests.TestBase - Start test -->addNewCarPositive
+18:09:22 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+18:09:27 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout ']is found
+18:09:27 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+18:09:27 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in ']is found
+18:09:27 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+18:09:27 INFO  manager.MyListener - Element with locator --> By.id: emailis found
+18:09:27 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+18:09:27 INFO  manager.MyListener - Element with locator --> By.id: passwordis found
+18:09:27 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+18:09:27 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit']is found
+18:09:27 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+18:09:28 INFO  manager.MyListener - Element with locator --> By.xpath: //button[.='Ok']is found
+18:09:33 INFO  manager.MyListener - Start searching element by locator --> By.id: 1
+18:09:33 INFO  manager.MyListener - Element with locator --> By.id: 1is found
+18:09:34 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: h1
+18:09:34 INFO  manager.MyListener - Element with locator --> By.cssSelector: h1is found
+18:09:34 INFO  manager.MyListener - Start searching element by locator --> By.id: pickUpPlace
+18:09:34 INFO  manager.MyListener - Element with locator --> By.id: pickUpPlaceis found
+18:09:34 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: div.pac-item
+18:09:34 INFO  manager.MyListener - Element with locator --> By.cssSelector: div.pac-itemis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: make
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: makeis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: model
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: modelis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: year
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: yearis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: fuel
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: fuelis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.xpath: .//option[@value = "Petrol"]
+18:09:35 INFO  manager.MyListener - Element with locator --> By.xpath: .//option[@value = "Petrol"]is found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: seats
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: seatsis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: class
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: classis found
+18:09:35 INFO  manager.MyListener - Start searching element by locator --> By.id: serialNumber
+18:09:35 INFO  manager.MyListener - Element with locator --> By.id: serialNumberis found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.id: price
+18:09:36 INFO  manager.MyListener - Element with locator --> By.id: priceis found
+18:09:36 INFO  tests.TestBase - ========
+18:09:36 INFO  tests.TestBase - Start test -->loginNegativeWrongEmail
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+18:09:36 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout ']is found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+18:09:36 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout ']is found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+18:09:36 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in ']is found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+18:09:36 INFO  manager.MyListener - Element with locator --> By.id: emailis found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+18:09:36 INFO  manager.MyListener - Element with locator --> By.id: passwordis found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+18:09:36 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit']is found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //div[.="It'snot look like email"]
+18:09:36 INFO  manager.MyListener - Element with locator --> By.xpath: //div[.="It'snot look like email"]is found
+18:09:36 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+18:09:41 INFO  manager.MyListener - Something went wrong!
+18:09:41 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.Vktqjs}, goog:chromeOptions: {debuggerAddress: localhost:41349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80fddb17b9afbf1317e6206da51c780e
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+18:09:41 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.Vktqjs}, goog:chromeOptions: {debuggerAddress: localhost:41349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80fddb17b9afbf1317e6206da51c780e
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+18:09:42 INFO  manager.MyListener - This is link to screenshot with error: src/test/screenshots581.png
+18:09:42 INFO  tests.TestBase - Start test -->registrationNegativeWrongPassword
+18:09:42 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Sign up ']
+18:09:42 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Sign up ']is found
+18:09:42 INFO  tests.TestBase - Method openRegistrationForm invoked : john582@mail.com & Asdf1234
+18:09:42 INFO  manager.MyListener - Start searching element by locator --> By.id: name
+18:09:42 INFO  manager.MyListener - Element with locator --> By.id: nameis found
+18:09:42 INFO  manager.MyListener - Start searching element by locator --> By.id: lastName
+18:09:42 INFO  manager.MyListener - Element with locator --> By.id: lastNameis found
+18:09:42 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+18:09:42 INFO  manager.MyListener - Element with locator --> By.id: emailis found
+18:09:42 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+18:09:42 INFO  manager.MyListener - Element with locator --> By.id: passwordis found
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .checkbox-container
+18:09:43 INFO  manager.MyListener - Element with locator --> By.cssSelector: .checkbox-containeris found
+18:09:43 INFO  tests.TestBase - Method fillRegistrationForm invoked : john582@mail.com & Asdf1234
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+18:09:43 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit']is found
+18:09:43 INFO  tests.TestBase - Method submitForm invoked : john582@mail.com & Asdf1234
+18:09:43 INFO  tests.TestBase - ========
+18:09:43 INFO  tests.TestBase - Start test -->registrationPositive
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Sign up ']
+18:09:43 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Sign up ']is found
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.id: name
+18:09:43 INFO  manager.MyListener - Element with locator --> By.id: nameis found
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.id: lastName
+18:09:43 INFO  manager.MyListener - Element with locator --> By.id: lastNameis found
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+18:09:43 INFO  manager.MyListener - Element with locator --> By.id: emailis found
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+18:09:43 INFO  manager.MyListener - Element with locator --> By.id: passwordis found
+18:09:43 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .checkbox-container
+18:09:44 INFO  manager.MyListener - Element with locator --> By.cssSelector: .checkbox-containeris found
+18:09:44 INFO  manager.MyListener - Something went wrong!
+18:09:44 INFO  manager.MyListener - move target out of bounds
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.Vktqjs}, goog:chromeOptions: {debuggerAddress: localhost:41349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80fddb17b9afbf1317e6206da51c780e
+18:09:44 INFO  manager.MyListener - move target out of bounds
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aleksandra-Lenovo', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.19.0-45-generic', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.Vktqjs}, goog:chromeOptions: {debuggerAddress: localhost:41349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80fddb17b9afbf1317e6206da51c780e
+18:09:44 INFO  manager.MyListener - This is link to screenshot with error: src/test/screenshots584.png
+18:09:44 INFO  tests.TestBase - ========

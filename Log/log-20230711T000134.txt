@@ -1,0 +1,21 @@
+00:01:37 INFO  tests.TestBase - Start test ---> registrationPositive
+00:01:37 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Sign up ']
+00:01:37 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Sign up '] is found
+00:01:37 INFO  manager.MyListener - Start searching element by locator --> By.id: name
+00:01:37 INFO  manager.MyListener - Element with locator --> By.id: name is found
+00:01:37 INFO  manager.MyListener - Start searching element by locator --> By.id: lastName
+00:01:37 INFO  manager.MyListener - Element with locator --> By.id: lastName is found
+00:01:37 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+00:01:37 INFO  manager.MyListener - Element with locator --> By.id: email is found
+00:01:37 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+00:01:37 INFO  manager.MyListener - Element with locator --> By.id: password is found
+00:01:37 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .checkbox-container
+00:01:38 INFO  manager.MyListener - Element with locator --> By.cssSelector: .checkbox-container is found
+00:01:38 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+00:01:38 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit'] is found
+00:01:38 INFO  tests.TestBase - Registration test starts with data : fery@gmail.com & Fery$12345
+00:01:38 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .dialog-container
+00:01:39 INFO  manager.MyListener - Element with locator --> By.cssSelector: .dialog-container is found
+00:01:39 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .dialog-container
+00:01:39 INFO  manager.MyListener - Element with locator --> By.cssSelector: .dialog-container is found
+00:01:39 INFO  tests.TestBase - =================================

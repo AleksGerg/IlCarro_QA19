@@ -1,0 +1,49 @@
+00:28:33 INFO  tests.TestBase - Start test ---> loginPositiveUserDTO
+00:28:33 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+00:28:38 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout '] is found
+00:28:38 INFO  tests.TestBase - User: models.User@4a951911 is provided
+00:28:38 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+00:28:38 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in '] is found
+00:28:38 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+00:28:38 INFO  manager.MyListener - Element with locator --> By.id: email is found
+00:28:38 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+00:28:38 INFO  manager.MyListener - Element with locator --> By.id: password is found
+00:28:39 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+00:28:39 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit'] is found
+00:28:39 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+00:28:40 INFO  manager.MyListener - Element with locator --> By.xpath: //button[.='Ok'] is found
+00:28:40 INFO  tests.TestBase - =================================
+00:28:40 INFO  tests.TestBase - Start test ---> loginPositiveUserDTO
+00:28:40 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+00:28:40 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout '] is found
+00:28:40 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+00:28:40 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout '] is found
+00:28:40 INFO  tests.TestBase - User: models.User@5f5b5ca4 is provided
+00:28:40 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+00:28:40 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in '] is found
+00:28:40 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+00:28:40 INFO  manager.MyListener - Element with locator --> By.id: email is found
+00:28:40 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+00:28:41 INFO  manager.MyListener - Element with locator --> By.id: password is found
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+00:28:41 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit'] is found
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+00:28:41 INFO  manager.MyListener - Element with locator --> By.xpath: //button[.='Ok'] is found
+00:28:41 INFO  tests.TestBase - =================================
+00:28:41 INFO  tests.TestBase - Start test ---> loginPositiveUserDTO
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+00:28:41 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout '] is found
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+00:28:41 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout '] is found
+00:28:41 INFO  tests.TestBase - User: models.User@1813f3e9 is provided
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+00:28:41 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in '] is found
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+00:28:41 INFO  manager.MyListener - Element with locator --> By.id: email is found
+00:28:41 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+00:28:42 INFO  manager.MyListener - Element with locator --> By.id: password is found
+00:28:42 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+00:28:42 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit'] is found
+00:28:42 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+00:28:42 INFO  manager.MyListener - Element with locator --> By.xpath: //button[.='Ok'] is found
+00:28:42 INFO  tests.TestBase - =================================
