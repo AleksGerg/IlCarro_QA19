@@ -1,0 +1,18 @@
+15:11:32 INFO  tests.TestBase - Start test ---> loginPositive
+15:11:32 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[.=' Logout ']
+15:11:37 INFO  manager.MyListener - Element with locator --> By.xpath: //a[.=' Logout '] is found
+15:11:37 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //a[text()=' Log in ']
+15:11:37 INFO  manager.MyListener - Element with locator --> By.xpath: //a[text()=' Log in '] is found
+15:11:37 INFO  manager.MyListener - Start searching element by locator --> By.id: email
+15:11:37 INFO  manager.MyListener - Element with locator --> By.id: email is found
+15:11:38 INFO  manager.MyListener - Start searching element by locator --> By.id: password
+15:11:38 INFO  manager.MyListener - Element with locator --> By.id: password is found
+15:11:38 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: [type='submit']
+15:11:38 INFO  manager.MyListener - Element with locator --> By.cssSelector: [type='submit'] is found
+15:11:38 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .dialog-container
+15:11:39 INFO  manager.MyListener - Element with locator --> By.cssSelector: .dialog-container is found
+15:11:39 INFO  manager.MyListener - Start searching element by locator --> By.cssSelector: .dialog-container
+15:11:39 INFO  manager.MyListener - Element with locator --> By.cssSelector: .dialog-container is found
+15:11:39 INFO  manager.MyListener - Start searching element by locator --> By.xpath: //button[.='Ok']
+15:11:39 INFO  manager.MyListener - Element with locator --> By.xpath: //button[.='Ok'] is found
+15:11:39 INFO  tests.TestBase - =================================
